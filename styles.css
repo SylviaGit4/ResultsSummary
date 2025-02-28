@@ -1,0 +1,17 @@
+:root {
+ --red: #ff5757;
+ --yellow: #ffb01f;
+ --greenTeal: #00bd91;
+ --cobaltBlue: #1125d4;
+
+ --lightBlue: #7857ff; /* BACKGROUND */
+ --darkBlue: #2e2be9; /* BACKGROUND */
+
+ --violet: #4e21ca; /* CIRCLE */
+ --persianBlue: #2421ca00; /* CIRCLE */
+
+ --white: #ffffff;
+ --lightGrey: #ebf1ff;
+ --lavender: #c8c7ff;
+ --darkGrey: #303b5a;
+}
