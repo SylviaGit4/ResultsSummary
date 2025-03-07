@@ -16,12 +16,63 @@
  --darkGrey: #303b5a;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: var(--lavender);
+    background-color: var(--lightGrey);
 }
 
 .container {
-    margin:auto ;
-    background-color: white;
-    
+    background-color: var(--white);
+    margin: auto;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.left {
+    background-color: var(--darkBlue);
+    width: 200px;
+    padding: 18px;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    height: 300px;
+    width: 250px;
+}
+
+.result {
+    margin-left: 4.5rem;
+    top: 0;
+}
+
+.reaction {
+    color: var(--red)
+}
+
+.memory {
+    color: var(--yellow);
+}
+
+.verbal {
+    color: var(--greenTeal);
+}
+
+.visual {
+    color: var(--cobaltBlue);
 }
