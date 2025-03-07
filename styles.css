@@ -15,3 +15,13 @@
  --lavender: #c8c7ff;
  --darkGrey: #303b5a;
 }
+
+body {
+    background-color: var(--lavender);
+}
+
+.container {
+    margin:auto ;
+    background-color: white;
+    
+}
