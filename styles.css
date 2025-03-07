@@ -4,6 +4,11 @@
  --greenTeal: #00bd91;
  --cobaltBlue: #1125d4;
 
+ --redMOD: #ff57576b;
+ --yellowMOD: #ffb01f6b;
+ --greenTealMOD: #00bd916b;
+ --cobaltBlueMOD: #1125d46b;
+
  --lightBlue: #7857ff; /* BACKGROUND */
  --darkBlue: #2e2be9; /* BACKGROUND */
 
@@ -57,22 +62,41 @@ body {
 }
 
 .result {
-    margin-left: 4.5rem;
-    top: 0;
+    color: var(--darkGrey);
 }
 
 .reaction {
-    color: var(--red)
+    color: var(--red);
+    background-color: var(--redMOD);
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .memory {
     color: var(--yellow);
+    background-color: var(--yellowMOD);
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .verbal {
     color: var(--greenTeal);
+    background-color: var(--greenTealMOD);
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .visual {
     color: var(--cobaltBlue);
+    background-color: var(--cobaltBlueMOD);
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
 }
